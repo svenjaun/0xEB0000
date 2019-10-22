@@ -320,6 +320,7 @@ class RenderingEngine {
     return element.nodeType === 3;
   }
   sanitize(string) {
+    return string;
     if (typeof string !== 'string') return string;
     var map = {
       '&': '&amp;',

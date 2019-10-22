@@ -5,12 +5,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="nails/nails/directiveDefinitions.js"></script>
+    <!-- <script src="nails/nails/directiveDefinitions.js"></script>
     <script src="nails/nails/state.js"></script>
     <script src="nails/nails/engine.js"></script>
     <script src="nails/nails/nails.js"></script>
     <script src="nails/nails/api.js"></script>
-    <script src="nails/nails/helplers/http.js"></script>
+    <script src="nails/nails/helplers/http.js"></script> -->
+    <script src="https://rawcdn.githack.com/nailsframework/nails/6b06383993ed0910d53322a82d3edd54f36056cd/nails/nails.min.js"></script>
 
     <title>{{title}}</title>
 </head>
@@ -87,34 +88,41 @@
             <h2>Die Bilder im Rahmen des M152</h2>
             <h4>Die folgenden Bilder sind von unserem Team gemacht, bearbeitet und hochgeladen worden</h4>
 
+
             <div class="fotoscontainer">
-                <div class="fotocard">
-                    <div class="foto briefkasten"></div>
-                    <h3>Briefkasten</h3>
-                    <p>Ein Briefkasten eines einheimischen</p>
+                <div n-for="let photoInfo of photoInfos" class="fotocard">
+                    <div class="fotosdiv">
+                        <div class="foto noedit{{ photoInfo.title }}">No Edit</div>
+                        <div class="foto edit{{ photoInfo.title }}">Edit</div>
+                    </div>
+                    <h3>{{ photoInfo.title }}</h3>
+                    <p>{{ photoInfo.text }}</p>
                     <table>
                         <tr>
                             <th>Fotograf</th>
-                            <th>Dominic Jaermann</th>
+                            <th>{{ photoInfo.name }}</th>
                         </tr>
                         <tr>
                             <th>Blende</th>
-                            <th>f/3.2</th>
+                            <th>{{ photoInfo.Blende }}</th>
                         </tr>
                         <tr>
                             <th>ISO</th>
-                            <th>100</th>
+                            <th>{{ photoInfo.ISO }}</th>
                         </tr>
                         <tr>
                             <th>Brennweite</th>
-                            <th>4.8mm</th>
+                            <th>{{ photoInfo.Brennweite }}</th>
                         </tr>
                         <tr>
                             <th>Verschlusszeit</th>
-                            <th>1/100 Sek.</th>
+                            <th>{{ photoInfo.Verschlusszeit }}</th>
                         </tr>
                     </table>
                 </div>
+
+
+
             </div>
         </div>
 

@@ -82,6 +82,7 @@ h2.grayshadow {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
 }
 
 .intro {
@@ -206,7 +207,6 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #52D1C6;
     padding: 20px;
 }
 .foto {
@@ -215,13 +215,95 @@ iframe {
     background-repeat: no-repeat;
     height: 500px;
     width: 663px;
+    font-size: 30px;
+    text-shadow: 0 0 3px #000000;    
 }
-.briefkasten {
-    background-image: url("/images/edit_briefkasten.jpg");
+
+.foto:first-child {
+    margin-right: 10px;
 }
 
 .fotocard {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #52D1C6;
+    margin: 15px;
 }
+
+.fotosdiv {
+    display: flex;
+}
+
+.editBriefkasten {
+    background-image: url("/images/edit_briefkasten.jpg");
+}
+
+.editGrill {
+    background-image: url("/images/edit_grill.jpg");
+}
+
+.editMonolith {
+    background-image: url("/images/edit_monolith.jpg");
+}
+
+.editGiraffe {
+    background-image: url("/images/edit_giraffe.jpg");
+}
+
+.editSkulptur {
+    background-image: url("/images/edit_skulptur.jpg");
+}
+
+.editVerkehrshut {
+    background-image: url("/images/edit_verkehrshut.jpg");
+}
+
+.editFanta {
+    background-image: url("/images/edit_fanta.jpg");
+}
+
+.editTrottinett {
+    background-image: url("/images/edit_trottinett.jpg");
+}
+
+.editTuerschloss {
+    background-image: url("/images/edit_tuerschloss.jpg");
+}
+
+.noeditBriefkasten {
+    background-image: url("/images/noedit_briefkasten.jpg");
+}
+
+.noeditGrill {
+    background-image: url("/images/noedit_grill.jpg");
+}
+
+.noeditMonolith {
+    background-image: url("/images/noedit_monolith.jpg");
+}
+
+.noeditGiraffe {
+    background-image: url("/images/noedit_giraffe.jpg");
+}
+
+.noeditSkulptur {
+    background-image: url("/images/noedit_skulptur.jpg");
+}
+
+.noeditVerkehrshut {
+    background-image: url("/images/noedit_verkehrshut.jpg");
+}
+
+.noeditFanta {
+    background-image: url("/images/noedit_fanta.jpg");
+}
+
+.noeditTrottinett {
+    background-image: url("/images/noedit_trottinett.jpg");
+}
+
+.noeditTuerschloss {
+    background-image: url("/images/noedit_tuerschloss.jpg");
+}
+
