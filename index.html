@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="https://rawcdn.githack.com/nailsframework/nails/6b06383993ed0910d53322a82d3edd54f36056cd/nails/nails.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
     <title>{{title}}</title>
 </head>
@@ -13,17 +14,17 @@
 <body>
     <nav class="navbar fixed-top navbar-light bg-light flex-nav">
         <h1>0xEB0000</h1>
-        <div class="navigation">
-            <a href="#start" class="navbar-brand active">Start</a>
-            <a href="#team" class="navbar-brand">Team</a>
-            <a href="#fotos" class="navbar-brand">Fotos</a>
-            <a href="#video" class="navbar-brand">Video</a>
-            <a href="#stream" class="navbar-brand">Stream</a>
+        <div class="navigation" id="navigation">
+            <a href="#start" class="navbar-brand active" id="startnav">Start</a>
+            <a href="#teams" class="navbar-brand" id="teamsnav">Team</a>
+            <a href="#fotos" class="navbar-brand" id="fotosnav">Fotos</a>
+            <a href="#video" class="navbar-brand" id="videonav">Video</a>
+            <a href="#strea" class="navbar-brand" id="streanav">Stream</a>
         </div>
     </nav>
-    <div class="scrollable">
+    <div class="scrollable" id="scrollable">
 
-        <div class="intro thumbnail" id="start">
+        <div id="start" class="intro thumbnail pagesection">
             <h2>Die spuren des Menschen</h2>
             <hr>
             <h4 class="info">
@@ -32,7 +33,7 @@
         </div>
 
 
-        <div class="team titles" id="team">
+        <div id="teams" class="team titles pagesection">
             <h2 class="grayshadow">Das Team</h2>
             <h4>Hier ist unser Team welches sich zusammen verbunden hat um das Modul 152 zu bestehen</h4>
             <div class="cards">
@@ -78,7 +79,7 @@
             </div>
         </div>
 
-        <div class="fotos titles" id="fotos">
+        <div id="fotos"  class="fotos titles pagesection">
             <h2>Die Bilder im Rahmen des M152</h2>
             <h4>Die folgenden Bilder sind von unserem Team gemacht, bearbeitet und hochgeladen worden</h4>
 
@@ -120,12 +121,12 @@
             </div>
         </div>
 
-        <div class="video titles" id="video">
+        <div id="video" class="video titles pagesection">
             <h2 class="grayshadow">Der Film</h2>
             <h4>Zusammen mit der Gruppe "YIKES" haben wir einen Kurzfilm erstellt. Dieser ist exklusiv hier verfügbar und das nur für sie</h4>
         </div>
 
-        <div class="stream titles" id="stream">
+        <div id="strea" class="stream titles pagesection">
             <h2>And to Relax: The Earth View from the Space Station 🚀</h2>
             <hr>
             <div class="streamframe"><iframe width="560" height="315" src="https://www.youtube.com/embed/69-kc-azAY4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

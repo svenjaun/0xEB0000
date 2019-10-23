@@ -26,6 +26,9 @@ h2.grayshadow {
     text-shadow: 0 0 3px gray;
 }
 
+a:focus {
+    outline:0;
+}
 
 .footer {
     margin-top: 30px;
@@ -214,13 +217,9 @@ iframe {
     background-size: contain;
     background-repeat: no-repeat;
     height: 500px;
-    width: 663px;
+    width: 667px;
     font-size: 30px;
     text-shadow: 0 0 3px #000000;    
-}
-
-.foto:first-child {
-    margin-right: 10px;
 }
 
 .fotocard {
