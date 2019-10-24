@@ -110,8 +110,6 @@ $(document).ready(function() {
     });
 });
 
-
-
 function checkNav() {
     $('#navigation').find('a').each(function() {
         $(this).removeClass('active')

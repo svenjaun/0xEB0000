@@ -79,6 +79,7 @@ a:focus {
 .scrollable {
     overflow: auto;
     max-height: 95vh;
+    overflow-x: hidden;
 }
 
 .thumbnail {
