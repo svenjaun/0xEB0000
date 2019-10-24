@@ -306,3 +306,18 @@ iframe {
     background-image: url("/images/noedit_tuerschloss.jpg");
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #386c80; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2f5b6d; 
+}
