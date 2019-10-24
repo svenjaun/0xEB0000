@@ -1,29 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="DE">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="0xEB0000">
+    <meta name="publisher" content="IET-GIBB">
+    <meta name="copyright" content="Jaun Sven">
+    <meta name="description" content="Auf der Suche nach den spuren des Menschen in der Stadt Bern.">
+    <meta name="keywords" content="IET-GIBB, Schule, Website, Nails, Framework, UTF-8, Scrollable, Fotos, Video, Stream, PureHTML, Sven, Mladen, Dominic, NailsJS, NailsFramework">
+    <meta name="page-topic" content="Medien">
+    <meta name="page-type" content="Bild Foto">
+    <meta name="audience" content="Alle, Anfänger, Azubis, Erwachsene, Experten, Fans, Fortgeschrittene, Frauen, Jugendliche, Kinder, Männer, Profis, Schüler, Studenten">
+    <meta http-equiv="content-language" content="de">
+    <meta name="robots" content="index, follow">
+    <meta name="DC.Creator" content="0xEB0000">
+    <meta name="DC.Publisher" content="IET-GIBB">
+    <meta name="DC.Rights" content="Jaun Sven">
+    <meta name="DC.Description" content="Auf der Suche nach den spuren des Menschen in der Stadt Bern.">
+    <meta name="DC.Language" content="de">
+
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
     <script src="scripts/nails.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/most-visible@1.4.0/dist/most-visible.min.js"></script>
 
     <title>{{title}}</title>
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-light bg-light flex-nav">
-        <h1>0xEB0000</h1>
-        <div class="navigation" id="navigation">
-            <a href="#start" class="navbar-brand active" id="startnav">Start</a>
-            <a href="#teams" class="navbar-brand" id="teamsnav">Team</a>
-            <a href="#fotos" class="navbar-brand" id="fotosnav">Fotos</a>
-            <a href="#video" class="navbar-brand" id="videonav">Video</a>
-            <a href="#strea" class="navbar-brand" id="streanav">Stream</a>
-        </div>
-    </nav>
-    <div class="scrollable" id="scrollable">
 
+    <div class="scrollable" id="scrollable" onscroll="checkNav()">
+        <nav class="navbar fixed-top navbar-light bg-light flex-nav">
+            <h1>0xEB0000</h1>
+            <div class="navigation" id="navigation">
+                <a href="#start" class="navbar-brand active" id="startnav">Start</a>
+                <a href="#teams" class="navbar-brand" id="teamsnav">Team</a>
+                <a href="#fotos" class="navbar-brand" id="fotosnav">Fotos</a>
+                <a href="#video" class="navbar-brand" id="videonav">Video</a>
+                <a href="#strea" class="navbar-brand" id="streanav">Stream</a>
+            </div>
+        </nav>
         <div id="start" class="intro thumbnail pagesection">
             <h2>Die spuren des Menschen</h2>
             <hr>
@@ -44,8 +64,8 @@
                         <p class="title">Grafiker und Programmierer</p>
                         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                         <p>
-                            <button class="button" onclick="window.open('https:\/\/github.com/mladenbrankovic', '_blank').focus();"><div class="github-icon"></div></button>
-                            <a href="mailto:mladen.brankovic@sbb.ch"><button class="button"><div class="mail-icon"></div></button></a>
+                            <button aria-label="Github-Button" class="button" onclick="window.open('https:\/\/github.com/mladenbrankovic', '_blank').focus();"><div class="github-icon"></div></button>
+                            <a href="mailto:mladen.brankovic@sbb.ch"><button aria-label="Mail-Button"class="button"><div class="mail-icon"></div></button></a>
                         </p>
                     </div>
                 </div>
@@ -57,8 +77,8 @@
                         <p class="title">Fotograf und Drehbuchschreiber</p>
                         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                         <p>
-                            <button class="button" onclick="window.open('https:\/\/github.com/Dominic12', '_blank').focus();"><div class="github-icon"></div></button>
-                            <a href="mailto:dominic.jaermann@sbb.ch"><button class="button"><div class="mail-icon"></div></button></a>
+                            <button aria-label="Github-Button" class="button" onclick="window.open('https:\/\/github.com/Dominic12', '_blank').focus();"><div class="github-icon"></div></button>
+                            <a href="mailto:dominic.jaermann@sbb.ch"><button aria-label="Mail-Button" class="button"><div class="mail-icon"></div></button></a>
                         </p>
                     </div>
                 </div>
@@ -71,8 +91,8 @@
                         <p class="title">Webentwickler und Kameramann</p>
                         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                         <p>
-                            <button class="button" onclick="window.open('https:\/\/github.com/svenjaun', '_blank').focus();"><div class="github-icon"></div></button>
-                            <a href="mailto:sven.jaun@sbb.ch"><button class="button"><div class="mail-icon"></div></button></a>
+                            <button aria-label="Github-Button" class="button" onclick="window.open('https:\/\/github.com/svenjaun', '_blank').focus();"><div class="github-icon"></div></button>
+                            <a href="mailto:sven.jaun@sbb.ch"><button aria-label="Mail-Button" class="button"><div class="mail-icon"></div></button></a>
                         </p>
                     </div>
                 </div>
@@ -124,21 +144,18 @@
         <div id="video" class="video titles pagesection">
             <h2 class="grayshadow">Der Film</h2>
             <h4>Zusammen mit der Gruppe "YIKES" haben wir einen Kurzfilm erstellt. Dieser ist exklusiv hier verfügbar und das nur für sie</h4>
-            <div class="frame"><iframe width="560" height="315" src="https://www.youtube.com/embed/EurM4mjAqaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="frame"><iframe title="Gibb-Tonic Film" width="560" height="315" src="https://www.youtube.com/embed/EurM4mjAqaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
 
         <div id="strea" class="stream titles pagesection">
             <h2>And to Relax: The Earth View from the Space Station 🚀</h2>
             <hr>
-            <div class="frame"><iframe width="560" height="315" src="https://www.youtube.com/embed/69-kc-azAY4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="frame"><iframe title="NASA ISS Stream" width="560" height="315" src="https://www.youtube.com/embed/69-kc-azAY4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
+
         <div class="footer">Made with ♥ from&nbsp;<span class="red">0xEB0000</span></div>
     </div>
 </body>
 <script src="/scripts/main.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </html>
