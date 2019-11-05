@@ -13,7 +13,8 @@ var nails = new Nails({
                     "ISO": "100",
                     "Brennweite": "4.8mm",
                     "Blende": "f/3.2",
-                    "Verschlusszeit": "1/100 Sek."
+                    "Verschlusszeit": "1/100 Sek.",
+                    "Link": "raw_briefkasten.RW2"
                 },
                 {
                     "name": "Dominic Jaermann",
@@ -22,7 +23,8 @@ var nails = new Nails({
                     "ISO": "100",
                     "Brennweite": "11.5mm",
                     "Blende": "f\/3.4",
-                    "Verschlusszeit": "1/50 Sek."
+                    "Verschlusszeit": "1/50 Sek.",
+                    "Link": "raw_grill.RW2"
                 },
                 {
                     "name": "Dominic Jaermann",
@@ -31,7 +33,8 @@ var nails = new Nails({
                     "ISO": "100",
                     "Brennweite": "4.8mm",
                     "Blende": "f\/2.8",
-                    "Verschlusszeit": "1/30 Sek."
+                    "Verschlusszeit": "1/30 Sek.",
+                    "Link": "raw_monolith.RW2"
                 },
                 {
                     "name": "Mladen Brankovic",
@@ -40,7 +43,8 @@ var nails = new Nails({
                     "ISO": "100",
                     "Brennweite": "4.8mm",
                     "Blende": "f\/2.8",
-                    "Verschlusszeit": "1/80 Sek."
+                    "Verschlusszeit": "1/80 Sek.",
+                    "Link": "raw_giraffe.RW2"
                 },
                 {
                     "name": "Mladen Brankovic",
@@ -49,7 +53,8 @@ var nails = new Nails({
                     "ISO": "100",
                     "Brennweite": "4.8mm",
                     "Blende": "f\/4.0",
-                    "Verschlusszeit": "1/200 Sek."
+                    "Verschlusszeit": "1/200 Sek.",
+                    "Link": "raw_skulptur.RW2"
                 },
                 {
                     "name": "Mladen Brankovic",
@@ -58,7 +63,8 @@ var nails = new Nails({
                     "ISO": "100",
                     "Brennweite": "8.5mm",
                     "Blende": "f\/3.2",
-                    "Verschlusszeit": "1/80 Sek."
+                    "Verschlusszeit": "1/80 Sek.",
+                    "Link": "raw_verkehrshut.RW2"
                 },
                 {
                     "name": "Sven Jaun",
@@ -67,7 +73,8 @@ var nails = new Nails({
                     "ISO": "100",
                     "Brennweite": "9.2mm",
                     "Blende": "f\/3.2",
-                    "Verschlusszeit": "1/40 Sek."
+                    "Verschlusszeit": "1/40 Sek.",
+                    "Link": "raw_fanta.RW2"
                 },
                 {
                     "name": "Sven Jaun",
@@ -76,7 +83,8 @@ var nails = new Nails({
                     "ISO": "100",
                     "Brennweite": "8mm",
                     "Blende": "f\/3.0",
-                    "Verschlusszeit": "1/100 Sek."
+                    "Verschlusszeit": "1/100 Sek.",
+                    "Link": "raw_trottinett.RW2"
                 },
                 {
                     "name": "Sven Jaun",
@@ -85,7 +93,8 @@ var nails = new Nails({
                     "ISO": "100",
                     "Brennweite": "38.5mm",
                     "Blende": "f\/3.7",
-                    "Verschlusszeit": "1/60 Sek."
+                    "Verschlusszeit": "1/60 Sek.",
+                    "Link": "raw_tuerschloss.RW2"
                 }
             ]
         }

@@ -325,3 +325,58 @@ iframe {
 ::-webkit-scrollbar-thumb:hover {
     background: #2f5b6d;
 }
+
+@media screen and (max-width: 1300px) {
+    .foto {
+        height: 400px;
+        width: 534px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .foto {
+        height: 300px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .foto {
+        height: 200px;
+        width: 266px;
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .navbar-brand {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .foto {
+        height: 150px;
+        width: 200px;
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .navbar-brand {
+        font-size: 18px;
+    }
+    .personcard img {
+        height: 75%;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-brand {
+        font-size: 12px;
+    }
+    .button {
+        margin: 0 10px;
+    }
+}
