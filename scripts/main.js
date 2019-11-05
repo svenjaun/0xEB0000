@@ -9,7 +9,7 @@ var nails = new Nails({
             currentState.data.photoInfos = [{
                     "name": "Dominic Jaermann",
                     "title": "Briefkasten",
-                    "text": "Ein Briefkasten eines einheimischen",
+                    "text": "Eine Briefempfangsbox eines Einheimischen.",
                     "ISO": "100",
                     "Brennweite": "4.8mm",
                     "Blende": "f/3.2",
@@ -19,7 +19,7 @@ var nails = new Nails({
                 {
                     "name": "Dominic Jaermann",
                     "title": "Grill",
-                    "text": "Text zu Grill",
+                    "text": "Ein verlassenes Nahrungsgerät.",
                     "ISO": "100",
                     "Brennweite": "11.5mm",
                     "Blende": "f\/3.4",
@@ -29,7 +29,7 @@ var nails = new Nails({
                 {
                     "name": "Dominic Jaermann",
                     "title": "Monolith",
-                    "text": "Ein Monolith",
+                    "text": "Ein Monolith aus Stein.",
                     "ISO": "100",
                     "Brennweite": "4.8mm",
                     "Blende": "f\/2.8",
@@ -39,7 +39,7 @@ var nails = new Nails({
                 {
                     "name": "Mladen Brankovic",
                     "title": "Giraffe",
-                    "text": "Eine Giraffe",
+                    "text": "Ein zurückgebliebenes Kinderspielzeug.",
                     "ISO": "100",
                     "Brennweite": "4.8mm",
                     "Blende": "f\/2.8",
@@ -49,7 +49,7 @@ var nails = new Nails({
                 {
                     "name": "Mladen Brankovic",
                     "title": "Skulptur",
-                    "text": "Eine Skulptur",
+                    "text": "Eine silberne Skulptur. Ihr Zweck ist unbekannt.",
                     "ISO": "100",
                     "Brennweite": "4.8mm",
                     "Blende": "f\/4.0",
@@ -59,7 +59,7 @@ var nails = new Nails({
                 {
                     "name": "Mladen Brankovic",
                     "title": "Verkehrshut",
-                    "text": "Ein Verkehrshut",
+                    "text": "Ein gelagertes Strassenverkehrsutensil.",
                     "ISO": "100",
                     "Brennweite": "8.5mm",
                     "Blende": "f\/3.2",
@@ -69,7 +69,7 @@ var nails = new Nails({
                 {
                     "name": "Sven Jaun",
                     "title": "Fanta",
-                    "text": "Eine Fanta",
+                    "text": "Zurückgelassene Aluminiumdose.",
                     "ISO": "100",
                     "Brennweite": "9.2mm",
                     "Blende": "f\/3.2",
@@ -79,7 +79,7 @@ var nails = new Nails({
                 {
                     "name": "Sven Jaun",
                     "title": "Trottinett",
-                    "text": "Ein Trottinett",
+                    "text": "Fortbewegungsmittel eines einheimischen Jünglings.",
                     "ISO": "100",
                     "Brennweite": "8mm",
                     "Blende": "f\/3.0",
@@ -89,7 +89,7 @@ var nails = new Nails({
                 {
                     "name": "Sven Jaun",
                     "title": "Türschloss",
-                    "text": "Eine Tuerschloss",
+                    "text": "Verschluss zu einer Tür. Der Inhalt des Gebäudes bleibt unbekannt.",
                     "ISO": "100",
                     "Brennweite": "38.5mm",
                     "Blende": "f\/3.7",
